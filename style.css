@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(to right, #94d9b7, #94d9d0, #dbedeb);
+}
+h1 {
+  font-family: Almendra, Garamond;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: #181368;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Garamond;
+  color: #181368;
+  background-image: linear-gradient(to right, #dbedeb, #94d9d0, #94d9b7);
+  border: 5px solid powderblue;
+  padding: 15px 32px;
+}
+
+#conversionButton {
+  background: #f7c8b7;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 32px;
+  color: #181368;
+}
+
+#input {
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+}
+
+#output {
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+}
+
+#input[type="text"] {
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+#output[type="text"] {
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: #790297;
+}
